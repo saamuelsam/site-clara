@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { Calendar, Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import './styles/global.css';
 
 export default function Layout({ children, currentPageName }) {
   const location = useLocation();
